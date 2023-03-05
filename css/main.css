@@ -1,0 +1,46 @@
+@font-face {
+    font-family: 'LLAlarm';
+    src: url('../fonts/LLAlarm.eot');
+    src: url('../fonts/LLAlarm.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/LLAlarm.woff') format('woff'),
+        url('../fonts/LLAlarm.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(90deg, rgba(21, 14, 34, 0.522), rgba(10, 1, 65, 0.781)), url('https://wallpaperaccess.com/full/1468864.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    font-family: 'LLAlarm';
+    background-color: rgb(58, 58, 58);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #d7d7d7;
+}
+
+.date span {
+    font-size: 25px;
+}
+
+.wrapper {
+    text-align: center;
+}
+
+.time-wrapper {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    font-size: 75px;
+    text-shadow: 0 0 25px #00BFFF;
+}
